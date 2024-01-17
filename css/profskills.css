@@ -11,15 +11,19 @@ main{
 }
 
 .prof-skill-item{
+    padding-top: 10px;
     min-width: 300px;
+    max-width: 300px;
     min-height: 300px;
+    max-height: 300px;
     border-radius: 15px;
     background-color: var(--secondary);
     transition: .2s;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
+    overflow-x: scroll;
 }
 
 .prof-skill-item img
@@ -35,7 +39,6 @@ main{
 }
 
 .download-ico{
-    position: absolute;
     transition: .2s;
 }
 
@@ -43,9 +46,17 @@ main{
     transform: scale(1.5);
 }
 
-.prof-skill-item:not(:hover) .download-ico{
+.prof-skill-item:not(:hover) .download-ico, .prof-skill-item:not(:hover) .short-desc{
     display: none;
 } 
+
+.short-desc{
+    font-size: 16px;
+    max-width: 80%;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
 
 .prof-skill-item span
 {
