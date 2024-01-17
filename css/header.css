@@ -1,0 +1,47 @@
+header{
+    width: auto;
+    height: fit-content;
+    padding: 15px;
+    position: sticky;
+    background-color: var(--background);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+header ul{  
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+}
+
+header ul li{
+    display: inline;
+    font-family: 'Open Sans';
+}
+
+header a{
+    text-decoration: none;
+    color: var(--text);
+    font-family: 'Open Sans';
+    font-size: 20px;
+}
+
+header ul li a {
+    color: var(--text);
+    font-family: 'Open Sans';
+    font-size: 20px;
+    transition: 0.2s;
+    position: relative;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+
+}
+
+hr{
+    opacity: .3;
+}

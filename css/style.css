@@ -1,0 +1,28 @@
+/* https://www.realtimecolors.com/?colors=121221-ebebf4-4b4b86-d8d8e9-58589d&fonts=Poppins-Poppins */
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans.ttf");
+}
+
+@font-face {
+    font-family: "Open Sans Italic";
+    src: url("../fonts/OpenSansItalic.ttf");
+}
+
+:root{
+    --primary:#5593ac;
+    --secondary: #9ca1cf;
+    --accent: #8e84c3;
+    --background:#f6fafb;
+    --text:#0d171a;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: var(--background);
+}
+

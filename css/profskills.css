@@ -1,0 +1,70 @@
+main{
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-top: 25px;
+    font-family: 'Open Sans';
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.prof-skill-item{
+    min-width: 300px;
+    min-height: 300px;
+    border-radius: 15px;
+    background-color: var(--secondary);
+    transition: .2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.prof-skill-item img
+{
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 50%;
+}
+
+.prof-skill-item a {
+    display: flex;
+    justify-content: center;
+}
+
+.download-ico{
+    position: absolute;
+    transition: .2s;
+}
+
+.download-ico:hover{
+    transform: scale(1.5);
+}
+
+.prof-skill-item:not(:hover) .download-ico{
+    display: none;
+} 
+
+.prof-skill-item span
+{
+    font-size: 24px;
+}
+
+
+main:hover .prof-skill-item
+{
+    opacity: .3;
+}
+
+main .prof-skill-item:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+body h1{
+    font-family: 'Open Sans';
+    text-align: center;
+    margin-top: 15px;
+}

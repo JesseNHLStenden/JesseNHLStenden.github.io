@@ -1,0 +1,25 @@
+main{
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 25px;
+    font-family: 'Open Sans';
+}
+.project-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.project-info-container{
+    display: flex;
+    flex-direction: column;
+    gap: auto;
+}
+.project-info-container p {
+    max-width: 754px;
+}
+.infra-picture{
+    max-height: 200px;
+    margin: 100px;
+    margin-left: 160px;
+    margin-right: auto;
+}
